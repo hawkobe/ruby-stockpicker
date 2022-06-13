@@ -10,9 +10,7 @@ def stock_picker(array)
     end
   end
 
-  day_index = []
-
-  day_index.push(differences.max[2], differences.max[1])
+  day_index = Array.new.push(differences.max[2], differences.max[1])
 
   day_index
 
